@@ -1,0 +1,11 @@
+{
+  "name": "01-logica_programacao",
+  "version": "1.0.0",
+  "description": "Aula 01 Full Stack",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "verena",
+  "license": "ISC"
+}
