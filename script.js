@@ -308,3 +308,19 @@ const somar = function(a, b){return a+b} //atribuir a função em uma variavel
 console.log(somar(1,3));
 
 */
+
+/* Aula 09 - Funções de Alta Ordem
+
+const subtrair = (a,b) => a-b;
+const aplicaOperacao = (a, b, operacao) => operacao(a, b); //o terceiro parametro é uma função -- subtrair--
+
+let resultado = aplicaOperacao(4,2, subtrair)
+console.log(resultado);
+
+const somarX = (x) => (y) => x+y; // somarX recebe o parametro x que return o parametro y e retorna soma de x+y
+
+const somar2 = somar(2); // somar2 recebe um paratro à x , que é 2, mais y
+
+console.log(somar2(5)); // aqui é retornado a constante somar2 mais y, que é 5
+
+*/
