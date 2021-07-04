@@ -364,3 +364,14 @@ const ParaMaiusc = (str) => str.toUpperCase(); // A função ParaMaiusc recebe o
 const maiusculas  = vetor.map(ParaMaiusc);
 console.log(maiusculas);
 */
+
+/* Aula 11 - Filter 
+
+O objetivo do Filter é filtrar os elementos do vetor. Para realizar a filtragem, quando passar por um elemento a função deve retornar o valor booleano true, do contrário o elemento será retirado
+
+const vetor = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const pares = vetor.filter(x => x % 2 === 0);
+ 
+console.log(pares);
+*/
