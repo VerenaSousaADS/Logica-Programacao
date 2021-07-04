@@ -358,4 +358,9 @@ const dobro = (item) => 2*item;
 const vetorDobrado = vetor.map(dobro);
 
 console.log(vetorDobrado);
+
+const vetor = ["a", "b", "c"];
+const ParaMaiusc = (str) => str.toUpperCase(); // A função ParaMaiusc recebe o método toUpperCase que transforma as letras em maiusculas.
+const maiusculas  = vetor.map(ParaMaiusc);
+console.log(maiusculas);
 */
