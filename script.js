@@ -214,3 +214,62 @@ for(let i = 1; i <= 100; i++){
     console.log(i);
 }
 */
+
+/*///Aula 07 - Vetores
+
+let vetor = [10, 20, 30, 40, 50];
+
+vetor[20] = 60;
+
+console.log(vetor[2]);
+
+let vetor = [];  //declarar vetor vazio
+
+for(let i = 0; i<10; i++){
+    vetor.push(); //Adiciona um elemento ao ultimo indice do vetor
+}
+
+console.log(vetor);
+
+for(let i = 0; i<vetor.length; i++){ //length retorna o tamanho do vetor
+    console.log(vetor[i])
+}
+
+
+// uso do for of
+
+for(let numero of vetor){
+    console.log(numero);  //dessa forma não preciso me preocupar com o tamanho do vetor pois a variavel de entrada é numero e não vetor, sendo que o for of assume valores do vetor.
+}
+
+for(let indice in vetor){
+    console.log(vetor[indice]);  //dessa forma não preciso me preocupar com o tamanho do vetor pois a variavel de entrada é numero e não vetor, sendo que o for in assume o indice do vetor.
+}
+
+let matriz = [
+    [1, 2, 3],
+    [10, 20, 30],
+    [40, 50, 60]
+];
+
+for (let linha of matriz){
+    for(let elemento of linha){
+        console.log(elemento)
+    }
+}
+
+let vetor = [10, 20, 30, 40, 50];
+let novo_elemento = 60;
+
+//vetor.push(novo_elemento) //adiciona um elemento ao final do vetor
+
+
+//vetor.pop();//remove um elemento do final do vetor
+
+// vetor.unshift(novo_elemento); //adiciona um elemento ao inicio do vetor
+
+// vetor.shift();//remove um elemento do inicio do vetor
+
+console.log(vetor);
+
+ */
