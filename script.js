@@ -308,3 +308,46 @@ const somar = function(a, b){return a+b} //atribuir a função em uma variavel
 console.log(somar(1,3));
 
 */
+
+/* Aula 09 - Funções de Alta Ordem
+
+const subtrair = (a,b) => a-b;
+const aplicaOperacao = (a, b, operacao) => operacao(a, b); //o terceiro parametro é uma função -- subtrair--
+
+let resultado = aplicaOperacao(4,2, subtrair)
+console.log(resultado);
+
+const somarX = (x) => (y) => x+y; // somarX recebe o parametro x que return o parametro y e retorna soma de x+y
+
+const somar2 = somar(2); // somar2 recebe um paratro à x , que é 2, mais y
+
+console.log(somar2(5)); // aqui é retornado a constante somar2 mais y, que é 5
+
+*/
+
+/* Aula 10 - Map
+
+Manipulação de vetores
+
+O Map tira a necessidade de utilizar um --for-- para percorrer o vetor e fazer alterações
+
+Dois parametros:
+
+A função recebe o valor do elemento vetor e a sua posição.
+
+Três parametros:
+
+Valor, posição, e vetor inteiro
+
+const vetor = ["10", "20", "30"];
+
+const TextInt = (x) => parseInt(x);  //Transforma os valore em string para Inteiro. parseInt retorna a string para um numero inteiro
+
+const vetor2 = vetor.map(TextInt) // a variável vetor2 recebe a função vetor.map que passa como parametro função strinToInt
+
+console.log(vetor2);
+
+const vetor3 = vetor2.map(x => x*x) //para mostrar que transformou para inteiro cria-se a constante vetor3 que vecebe função vetor2.map passando como parametro x que retorna x*x
+
+console.log(vetor3);
+*/
