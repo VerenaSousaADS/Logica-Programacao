@@ -350,4 +350,12 @@ console.log(vetor2);
 const vetor3 = vetor2.map(x => x*x) //para mostrar que transformou para inteiro cria-se a constante vetor3 que vecebe função vetor2.map passando como parametro x que retorna x*x
 
 console.log(vetor3);
+
+const vetor = [10, 20, 30];
+
+const dobro = (item) => 2*item;
+
+const vetorDobrado = vetor.map(dobro);
+
+console.log(vetorDobrado);
 */
