@@ -273,3 +273,38 @@ let novo_elemento = 60;
 console.log(vetor);
 
  */
+
+/* Aula 08 - Funções
+
+function escreva(){
+    console.log('ola');
+}
+
+escreva(); //chamando a função
+
+//Parametrizada
+
+function escreva(texto){
+    console.log(texto);
+}
+
+escreva('Meu primeiro parametro'); //passando a função por parametro
+escreva('Meu segundo parametro')
+
+
+//Matematica
+function somar(a, b){
+    return a+b;
+}
+
+let resultado = somar(1, 3);
+console.log(resultado)
+
+function somar(a, b){
+    return a+b;
+}
+
+const somar = function(a, b){return a+b} //atribuir a função em uma variavel
+console.log(somar(1,3));
+
+*/
