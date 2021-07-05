@@ -375,3 +375,34 @@ const pares = vetor.filter(x => x % 2 === 0);
  
 console.log(pares);
 */
+
+/* Aula 12 - Reduce
+
+O objetivo do reduce é reduzir um vetor a um valor ou um objeto. Por exemplo se você somar todos os valores de um vetor você estará reduzindo este vetor
+
+const vetor = [1, 2, 3, 4, 5, 6];
+
+// const soma = vetor.reduce((estado, item) => estado + item); // a variavel estado aqui funciona como um acumulador que guarda a soma parcial até o presente elemento da iteração. Já o item é adicionado a soma parcial atual, sendo que depois o estado atual fica alterado.
+
+// console.log(soma);
+
+const soma = vetor.reduce((estado, item) => estado + item, 0);
+
+console.log(soma);
+*/
+
+const matriz = [
+    [1, 2, 3, 4, 5, 6],
+    [6, 5, 4, 3, 2, 1],
+    [6, 1, 5, 2, 3, 4]
+
+];
+
+const somaColuna = (estado, item) => {
+    return [estado[0] + item[0] + item[1], estado[1] + item[2] + item[3], estado[2]+item[2]+item[4]]
+};
+
+const vetor2 = matriz.reduce(somaColuna);
+
+console.log(vetor2);
+ 
